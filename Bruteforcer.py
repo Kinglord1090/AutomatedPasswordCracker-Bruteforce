@@ -16,7 +16,5 @@ def use():
       t = Terminal()
       print(t.red("Exiting..."))
       break
-      
-
 
 use()
