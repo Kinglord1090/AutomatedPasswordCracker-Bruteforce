@@ -6,14 +6,11 @@ def use():
 # X is the string which contains all the 101 characters of the keyboard!
   y = int(input("Length: "))
 # Y is the length of the passwords to be required!
-  z = [("".join(p)) for p in product(x, repeat=y)]
-  	for p in product(a, repeat=b):
-		print("".join(p))
-    command = input("Enter E to End program ->")
-    if "e" in command:
-      from blessings import Terminal
-      t = Terminal()
-      print(t.red("Exiting..."))
-      break
+  for p in product(a, repeat=b):
+	print("".join(p))
+	command = input("Enter E to End program ->")
+	if "e" in command:
+		print("Exiting...")
+		break
 
 use()
