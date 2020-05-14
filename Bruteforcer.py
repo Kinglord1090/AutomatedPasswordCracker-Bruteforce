@@ -7,9 +7,8 @@ def use():
   y = int(input("Length: "))
 # Y is the length of the passwords to be required!
   z = [("".join(p)) for p in product(x, repeat=y)]
-# Z is the process which creates the list of passwords!
-  for index in z:
-    print(index)
+  	for p in product(a, repeat=b):
+		print("".join(p))
     command = input("Enter E to End program ->")
     if "e" in command:
       from blessings import Terminal
