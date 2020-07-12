@@ -1,1 +1,1 @@
-# Bruteforcer-GUI
+# Bruteforcer
