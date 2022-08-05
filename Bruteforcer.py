@@ -27,10 +27,10 @@ start_time = time.time()     # start_time is the start point of time
 no_of_guesses = 0               # no_of_guesses is an int value thats incremented at each loop to know the number of guesses tried out by the code
 
 
-def use():
+def use(min_length, max_length, guess, password, start_time, no_of_guesses):
 	if min_length < max_length:
 		min_length += 1
-		for x in product(a, repeat=b):    # x is the raw form of the combination
+		for x in product(characters, repeat=min_length):    # x is the raw form of the combination
 			guess = "".join(x)
 			if guess != password:
 				print(guess)
@@ -50,10 +50,10 @@ def use():
 					break
 		for y in range(min_length):
 			if guess != password:
-				use()
+				use(min_length, max_length, guess, password, start_time, no_of_guesses)
 			else:
 				break
 
 
 if __name__ == "__main__":
-	use()
+	use(min_length, max_length, guess, password, start_time, no_of_guesses)
