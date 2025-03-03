@@ -1,14 +1,13 @@
 
-# Automated Password Cracker [Bruteforce]
+# Automated Password Cracker [Bruteforce] 🔓
 
 This project is a password cracking tool that automates the process of generating all possible password combinations from a predefined set of characters. It is designed for testing password strength by attempting to guess passwords of varying lengths, starting from a specified minimum to a maximum length. The tool utilizes a brute-force approach to try every combination and measures the time and number of guesses required to find the correct password.
 
 
 ## Features
 
-- Brute-Force Password Cracking: The tool uses a brute-force algorithm to generate all possible combinations of a predefined set of characters to guess the password.
-
-- Customizable Password Length: Users can specify the minimum and maximum lengths of the passwords to be generated, providing flexibility in testing different password complexities.
+- **Brute-Force Password Cracking**: The tool uses a brute-force algorithm to generate all possible combinations of a predefined set of characters to guess the password.
+- **Customizable Password Length**: Users can specify the minimum and maximum lengths of the passwords to be generated, providing flexibility in testing different password complexities.
 
 - Predefined Character Set: The password generation is based on a list of 100 keyboard characters, including digits, uppercase and lowercase letters, and special characters, mimicking real-world password patterns.
 
