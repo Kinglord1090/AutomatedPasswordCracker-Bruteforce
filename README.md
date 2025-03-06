@@ -28,7 +28,7 @@ This project is a password cracking tool that automates the process of generatin
 
 1. Run the script:
     ```bash
-    python auto_pass_cracker.py
+    python auto-pass-cracker.py
     ```
 2. The program will prompt you to enter the minimum and maximum lengths of the passwords to be generated.
 3. Enter the desired password lengths, and the program will attempt to crack the hard-coded password.
