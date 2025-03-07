@@ -19,20 +19,20 @@ This project is a password cracking tool that automates the process of generatin
     ```bash
     git clone https://github.com/Kinglord1090/automated-password-cracker.git
     ```
-2. Navigate to the project folder:
-    ```bash
-    cd automated-password-cracker
-    ```
 
 ## Usage
 
-1. Run the script:
+1. Navigate to the project folder:
+    ```bash
+    cd automated-password-cracker
+    ```
+2. Run the script:
     ```bash
     python auto-pass-cracker.py
     ```
-2. The program will prompt you to enter the minimum and maximum lengths of the passwords to be generated.
-3. Enter the desired password lengths, and the program will attempt to crack the hard-coded password.
-4. If the password is found, it will display the result with the time taken and the number of guesses tried.
+3. The program will prompt you to enter the minimum and maximum lengths of the passwords to be generated.
+4. Enter the desired password lengths, and the program will attempt to crack the hard-coded password.
+5. If the password is found, it will display the result with the time taken and the number of guesses tried.
 
 ## License
 
